@@ -24,11 +24,11 @@
                                 <div class="am-u-sm-9">
                                     <label class="am-radio-inline">
                                         <input type="radio" name="store[is_notice]" value="1"
-                                               data-am-ucheck disabled> 开启
+                                               data-am-ucheck > 开启
                                     </label>
                                     <label class="am-radio-inline">
                                         <input type="radio" name="store[is_notice]" value="0"
-                                               data-am-ucheck checked disabled> 关闭
+                                               data-am-ucheck checked > 关闭
                                     </label>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@
                                     首页公告内容
                                 </label>
                                 <div class="am-u-sm-9">
-                                    <input type="text" class="tpl-form-input" name="store[notice]" disabled
+                                    <input type="text" class="tpl-form-input" name="store[notice]"
                                            value="">
                                 </div>
                             </div>

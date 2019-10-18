@@ -274,7 +274,9 @@ ul.tpl-dropdown-content .tpl-dropdown-menu-messages-item .menu-messages-content 
       height: 60px;
       line-height: 60px;
       padding-left: 2.2rem;
-      font-size: 1.4rem; }
+      font-size: 1.4rem;
+
+    }
     .left-sidebar .left-sidebar-second .sidebar-second-item a {
       min-height: 40px;
       line-height: 40px;
@@ -384,7 +386,9 @@ ul.tpl-dropdown-content .tpl-dropdown-menu-messages-item .menu-messages-content 
       height: 14px;
       background: #00aeff;
       top: 6px;
-      left: -12px; }
+      left: -12px;
+      border-radius:5px;
+    }
 
 .widget-fluctuation-period-text {
   display: inline-block;
@@ -792,8 +796,10 @@ ul.tpl-dropdown-content .tpl-dropdown-menu-messages-item .menu-messages-content 
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  border: 0;
-  border-bottom: 1px solid #c2cad8;
+  /*border: 0;*/
+  /*border-bottom: 1px solid #c2cad8;*/
+  border: 1px solid #c2cad8;
+  border-radius: 5px;
   color: #555;
   box-shadow: none;
   font-size: 14px; }
@@ -809,7 +815,8 @@ ul.tpl-dropdown-content .tpl-dropdown-menu-messages-item .menu-messages-content 
 .tpl-form-line-form .am-radio-inline {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: .8rem; }
+  padding-top: 1rem;
+}
 
 .am-checkbox, .am-checkbox-inline, .am-radio, .am-radio-inline {
   user-select: none; }
@@ -1756,3 +1763,16 @@ ul.tpl-dropdown-content .tpl-dropdown-menu-messages-item .tpl-dropdown-menu-noti
         color: #259fdc; }
 
 /*# sourceMappingURL=app.css.map */
+
+
+/*调整*/
+.am-selected-btn.am-btn-default {
+  border-radius: 5px;
+}
+.textarea-container {
+  padding-left: 7rem;
+}
+
+.am-table>thead:first-child>tr:first-child>th {
+  background-color: #e6e6e6;
+}

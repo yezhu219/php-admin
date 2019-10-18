@@ -200,8 +200,8 @@
                                 <div class="widget-title am-fl">商品详情</div>
                             </div>
                             <div class="am-form-group">
-                                <label class="am-u-sm-3 am-u-lg-2 am-form-label">商品详情 </label>
-                                <div class="am-u-sm-9 am-u-end">
+
+                                <div class="am-u-sm-9 am-u-end textarea-container">
                                     <!-- 加载编辑器的容器 -->
                                     <textarea id="container" name="goods[content]" type="text/plain"></textarea>
                                 </div>
